@@ -99,7 +99,7 @@ export function Header() {
                     </div>
 
                     <button onClick={handleClick}>
-                        {click ? <FiAlignRight  className="lg:hidden z-50 text-3xl text-white cursor-pointer" /> : <FiAlignJustify className="lg:hidden z-50 text-3xl text-white cursor-pointer" />}
+                        {click ? <FiAlignRight  className="lg:hidden text-3xl text-white cursor-pointer" /> : <FiAlignJustify className="lg:hidden text-3xl text-white cursor-pointer" />}
                     </button>
                 </div>
             </nav>
