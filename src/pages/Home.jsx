@@ -9,8 +9,8 @@ export function Home() {
         <div>
             <section className="flex flex-col h-screen">
                 <Header />
-               
-                <main className="lg:h-full -z-10 flex justify-center items-center bg-background ">
+
+                <main className="lg:h-full flex justify-center items-center bg-background ">
                     <div className="flex flex-col lg:flex-row mx-5 lg:mx-0 my-20 lg:my-0 w-full items-center justify-around gap-20 lg:gap-0">
                         <div className="flex flex-col gap-3 font-poppins max-w-2xl">
                             <h2 className="text-secondary text-3xl lg:text-5xl font-orbitron">// Front-End Developer</h2>
@@ -23,9 +23,9 @@ export function Home() {
                             </div>
                         </div>
 
-
-                        <img src={imgPerfil} alt="" className="size-72 lg:size-80 xl:size-96 object-cover rounded-full shadow-2xl shadow-border_color animate-shake animate-infinite animate-duration-[8000ms] animate-ease-linear" />
-
+                        <div className="flex z-10">
+                            <img src={imgPerfil} alt="" className="size-72 lg:size-80 xl:size-96 object-cover rounded-full shadow-2xl shadow-border_color animate-shake animate-infinite animate-duration-[8000ms] animate-ease-linear" />
+                        </div>
                     </div>
 
                 </main>

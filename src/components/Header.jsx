@@ -17,7 +17,7 @@ export function Header() {
     }
 
     const content = <>
-        <div className="lg:hidden fixed top-0 left-0 size-full -z-10 bg-black bg-opacity-70 flex items-center justify-center">
+        <div className="lg:hidden fixed top-0 left-0 size-full bg-black bg-opacity-70 flex items-center justify-center z-40">
             <div className="bg-background px-10 py-5 list-none flex flex-col items-center gap-3 rounded-lg text-white font-orbitron font-medium">
                 <Link spy={true} smooth={true} to='/'>
                     <li className="text-lg cursor-pointer transition duration-300 hover:text-secondary">
@@ -52,7 +52,7 @@ export function Header() {
 
     return (
 
-        <header className="sticky bg-primary font-orbitron font-bold shadow-3xl">
+        <header className="sticky bg-primary z-20 font-orbitron font-bold shadow-3xl">
 
             <nav className="flex gap-4 justify-between items-center mx-5 lg:mx-36 py-7">
 
@@ -98,8 +98,8 @@ export function Header() {
                         {click && content}
                     </div>
 
-                    <button onClick={handleClick}>
-                        {click ? <FiAlignRight  className="lg:hidden text-3xl text-white cursor-pointer" /> : <FiAlignJustify className="lg:hidden text-3xl text-white cursor-pointer" />}
+                    <button onClick={handleClick} className="fixed top-10 right-5 z-50">
+                        {click ? <FiAlignRight  className="text-3xl text-white cursor-pointer" /> : <FiAlignJustify className="text-3xl text-white cursor-pointer" />}
                     </button>
                 </div>
             </nav>
