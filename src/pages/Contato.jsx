@@ -1,7 +1,7 @@
 import { Header } from "../components/Header"
 import { FaDownload } from "react-icons/fa";
 
-import pdf from "../assets/documents/curriculo-victor-2024.pdf"
+import pdf from "../assets/documents/Curriculo_Victor - 2024.pdf"
 
 export function Contato(){
     return (
