@@ -1,4 +1,4 @@
-import { FaPython } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si"
 import { FaNode } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
@@ -22,7 +22,7 @@ export function Habilidades(){
                 <div className=" bg-primary flex flex-col lg:flex-row items-center gap-4 lg:gap-8 px-2 lg:px-8 py-4 lg:py-6 rounded-xl h-min">
                     <h1 className="text-secondary text-xl lg:text-3xl font-bold">Back-end</h1>
                     <div className="flex flex-col lg:flex-row gap-4 text-4xl lg:text-5xl text-white">
-                        <FaPython/>
+                        <SiMongodb />
                         <FaNode />
                     </div>
                 </div>
