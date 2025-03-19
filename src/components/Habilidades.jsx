@@ -11,6 +11,8 @@ import { SiVite } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoNetlify } from "react-icons/bi";
 import { FaFigma } from "react-icons/fa";
+import { RiNotionFill } from "react-icons/ri";
+
 
 export function Habilidades(){
     return(
@@ -45,6 +47,7 @@ export function Habilidades(){
                         <FaGithub />
                         <BiLogoNetlify />
                         <FaFigma />
+                        <RiNotionFill />
                     </div>
                 </div>
             </div>
