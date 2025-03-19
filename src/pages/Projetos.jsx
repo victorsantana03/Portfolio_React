@@ -16,7 +16,7 @@ export function Projetos() {
                 <div className="grid grid-cols-1 gap-20 2xl:grid-cols-3 xl:grid-cols-2 2xl:gap-36 2xl:gap-y-24 mb-14">
                     
                     <Projeto 
-                     imgUrl="/public/assets/images/projects/Projeto_Maiz.png" 
+                     imgUrl="/public/image-projects/Projeto_Maiz.png" 
                      title="Maiz - Comida Árabe" 
                      description="Uma ideia de e-commerce envolvendo um restaurante de comida árabe. O site contém um sistema de carrinho que permite o usuário adicionar o pedido, ver a quantidade e descartar se necessário. Totalmente responsivo." 
                      tecs={["HTML", "Tailwind", "JavaScript"]} 
@@ -25,7 +25,7 @@ export function Projetos() {
                     />
 
                     <Projeto 
-                     imgUrl="/public/assets/images/projects/Projeto_Brastecno.png" 
+                     imgUrl="/public/image-projects/Projeto_Brastecno.png" 
                      title="Brastecno Landing Page" 
                      description="Meu primeiro projeto real feito para uma empresa de assistência de eletrodomésticos. Uma landing page feito em dupla utilizando git para versionamento do código. Totalmente responsivo e estilizado em Tailwind." 
                      tecs={["Tailwind", "HTML", "JavaScript"]} 
@@ -34,7 +34,7 @@ export function Projetos() {
                     />
 
                     <Projeto 
-                     imgUrl="/public/assets/images/projects/Projeto_Twitter.png" 
+                     imgUrl="/public/image-projects/Projeto_Twitter.png" 
                      title="Twitter em React" 
                      description="Uma aplicação inspirada no Twitter. Nesse projeto foi utilizado API's para gerar fotos de perfis e imagens aleatórias simbolizando posts. Também foi utilizado UseState e UseEffect do React. Os Tweets são gerados por setInterval." 
                      tecs={["Vite", "React", "Tailwind"]} 
@@ -43,7 +43,7 @@ export function Projetos() {
                     />
 
                     <Projeto 
-                     imgUrl="/public/assets/images/projects/Projeto_Slider.png" 
+                     imgUrl="/public/image-projects/Projeto_Slider.png" 
                      title="Slider Cereais" 
                      description="Um projeto mais simples focado em animações CSS. A idéia é um slider em carrosel com imagens de alguns cereais e suas respectivas informações. Um projeto pensado para uma loja cerealista." 
                      tecs={["HTML", "CSS", "JavaScript"]} 
@@ -52,7 +52,7 @@ export function Projetos() {
                     />
 
                     <Projeto 
-                     imgUrl="/public/assets/images/projects/Projeto_MultistepForm.png" 
+                     imgUrl="/public/image-projects/Projeto_MultistepForm.png" 
                      title="Formulário Multistep" 
                      description="Um formulário de avaliação para e-commerce com múltiplas etapas feito em React. Pratiquei conceitos essenciais de React realizando esse projeto, como persistência de dados entre componentes." 
                      tecs={["React", "CSS", "JavaScript", "Vite"]} 
@@ -61,7 +61,7 @@ export function Projetos() {
                     />
 
                     <Projeto 
-                     imgUrl="/public/assets/images/projects/Projeto_Spotify.png" 
+                     imgUrl="/public/image-projects/Projeto_Spotify.png" 
                      title="Spotify em React" 
                      description="Uma cópia do Spotify feita em React utilizando tecnologias importantes dessa biblioteca. Utilizei React-Router-Dom para fazer a navegação entre páginas, Props para passagem de dados, renderização condicional e outros..." 
                      tecs={["React", "CSS", "JavaScript", "Vite"]} 
