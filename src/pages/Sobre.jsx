@@ -12,7 +12,7 @@ export function Sobre() {
               // Quem sou eu?
             </h1>
             <p className="text-xl lg:text-3xl font-medium hidden 2xl:block">
-              <span className="text-secondary">Desenvolvedor Front-End</span>{" "}
+              <span className="text-secondary">Desenvolvedor FullStack</span>{" "}
               formado em{" "}
               <span className="text-secondary">
                 Análise e Desenvolvimento de Sistemas
@@ -22,15 +22,14 @@ export function Sobre() {
           <div className="lg:w-2/5">
             <p className="text-lg 2xl:text-xl font-medium">
               - Olá, me chamo Victor <span>👋🏻</span>.{" "}
-              <span className="text-secondary">Desenvolvedor Front-End</span> e
-              graduado em ADS na Instituição de Ensino Eniac. Venho me
-              desenvolvendo na área de programação e adquirindo skills
-              essênciais para seguir a carreira. <br />
-              Tenho me aprofundado em tecnologias que me permitem criar
-              interfaces dinâmicas e funcionais como React, Node e seus pacotes,
-              MongoDb, Javascript e linguagens BackEnd.{" "}
+              <span className="text-secondary">Desenvolvedor FullStack</span>{" "}
+              com sólida base em HTML, CSS e JavaScript e forte especialização
+              em React, Node, Tailwind e banco de dados. Também possuo domínio
+              de versionamento de código com Git, prezando sempre por boas
+              práticas de colaboração e trabalho em equipe. <br />
+              Valorizo interfaces responsivas, boa usabilidade e código limpo.{" "}
               <span className="text-secondary">
-                Venho me aprimorando em FullStack.
+                Com foco na qualidade e no crescimento conjunto da equipe.
               </span>{" "}
               <br />
               Estou sempre disposto a contribuir para projetos desafiadores e

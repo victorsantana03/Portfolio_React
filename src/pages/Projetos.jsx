@@ -64,9 +64,10 @@ export function Projetos() {
           <Projeto
             imgUrl="/image-projects/Projeto_Spotify.png"
             title="Spotify em React"
-            description="Uma cópia do Spotify feita em React utilizando tecnologias importantes dessa biblioteca. Utilizei React-Router-Dom para fazer a navegação entre páginas, Props para passagem de dados, renderização condicional e outros..."
-            tecs={["React", "CSS", "JavaScript", "Vite"]}
+            description="Uma réplica do Spotify em React e MongoDB. Utilizei React-Router-Dom para fazer a navegação entre páginas, Props para passagem de dados, renderização condicional e outras tecnologias do React."
+            tecs={["React", "MongoDB", "CSS", "Vite"]}
             linkGH="https://github.com/victorsantana03/Spotify-React"
+            linkDeploy="https://projeto-spotify-hyoi.onrender.com/"
           />
 
           <Projeto
