@@ -17,12 +17,38 @@ export function Projetos() {
 
         <div className="grid grid-cols-1 gap-20 2xl:grid-cols-3 xl:grid-cols-2 2xl:gap-36 2xl:gap-y-24 mb-14">
           <Projeto
+            imgUrl="/image-projects/Projeto_Airb.png"
+            title="Réplica do Airbnb (Em dev.)"
+            description="Projeto feito em React e Node com login e cadastro de usuários, autenticação JWT, uso de cookies para login persistente e muito mais. O usuário pode criar anúncios, visualizar e realizar reservas. "
+            tecs={["React", "MongoDb", "Tailwind", "Node.js"]}
+            linkGH="https://github.com/victorsantana03/Airbnb-React"
+          />
+
+          <Projeto
             imgUrl="/image-projects/Projeto_Brastecno.png"
             title="Brastecno Landing Page"
             description="Meu primeiro projeto real feito para uma empresa de assistência de eletrodomésticos. Uma landing page feito em dupla utilizando git para versionamento do código. Totalmente responsivo e estilizado em Tailwind."
             tecs={["Tailwind", "HTML", "JavaScript"]}
             linkDeploy="https://www.brastecnoguarulhos.com.br/"
             linkGH="https://github.com/victorsantana03/Brastecno-LandingPage"
+          />
+
+          <Projeto
+            imgUrl="/image-projects/Projeto_Covid.png"
+            title="Estatísticas globais COVID-19"
+            description="Este App consome uma API e exibe um mapa mundi com marcadores em todos os países exibindo estatísticas locais da COVID. Um ótimo projeto pra testar novas bibliotecas."
+            tecs={["React", "Node", "Vite", "Tailwind"]}
+            linkDeploy="https://victorsantana03.github.io/EstatisticasCovid19-React/"
+            linkGH="https://github.com/victorsantana03/EstatisticasCovid19-React"
+          />
+
+          <Projeto
+            imgUrl="/image-projects/Projeto_Spotify.png"
+            title="Spotify em React"
+            description="Uma réplica do Spotify em React e MongoDB. Utilizei React-Router-Dom para fazer a navegação entre páginas, Props para passagem de dados, renderização condicional e outras tecnologias do React."
+            tecs={["React", "MongoDB", "CSS", "Vite"]}
+            linkGH="https://github.com/victorsantana03/Spotify-React"
+            linkDeploy="https://projeto-spotify-hyoi.onrender.com/"
           />
 
           <Projeto
@@ -50,24 +76,6 @@ export function Projetos() {
             tecs={["HTML", "Tailwind", "JavaScript"]}
             linkDeploy="https://victorsantana03.github.io/maiz_ecommerce/"
             linkGH="https://github.com/victorsantana03/maiz_ecommerce"
-          />
-
-          <Projeto
-            imgUrl="/image-projects/Projeto_Covid.png"
-            title="Estatísticas globais COVID-19"
-            description="Este App consome uma API e exibe um mapa mundi com marcadores em todos os países exibindo estatísticas locais da COVID. Um ótimo projeto pra testar novas bibliotecas."
-            tecs={["React", "Node", "Vite", "Tailwind"]}
-            linkDeploy="https://victorsantana03.github.io/EstatisticasCovid19-React/"
-            linkGH="https://github.com/victorsantana03/EstatisticasCovid19-React"
-          />
-
-          <Projeto
-            imgUrl="/image-projects/Projeto_Spotify.png"
-            title="Spotify em React"
-            description="Uma réplica do Spotify em React e MongoDB. Utilizei React-Router-Dom para fazer a navegação entre páginas, Props para passagem de dados, renderização condicional e outras tecnologias do React."
-            tecs={["React", "MongoDB", "CSS", "Vite"]}
-            linkGH="https://github.com/victorsantana03/Spotify-React"
-            linkDeploy="https://projeto-spotify-hyoi.onrender.com/"
           />
 
           <Projeto
