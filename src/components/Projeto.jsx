@@ -13,7 +13,7 @@ const Projeto = ({ imgUrl, title, description, tecs, linkGH, linkDeploy }) => {
               {title}
             </h2>
             <p>{description}</p>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 flex-wrap">
               {tecs.map((tec, index) => (
                 <div
                   key={index}
