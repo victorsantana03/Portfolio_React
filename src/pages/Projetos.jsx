@@ -27,7 +27,7 @@ export function Projetos() {
           <Projeto
             imgUrl="/image-projects/Projeto_Brastecno.png"
             title="Brastecno Landing Page"
-            description="Meu primeiro projeto real feito para uma empresa de assistência de eletrodomésticos. Uma landing page feito em dupla utilizando git para versionamento do código. Totalmente responsivo e estilizado em Tailwind."
+            description="Meu primeiro projeto freelancer feito para uma empresa de assistência de eletrodomésticos. Uma landing page totalmente moderna e responsiva utilizando Tailwind e interatividade com JavaScript."
             tecs={["Tailwind", "HTML", "JavaScript"]}
             linkDeploy="https://www.brastecnoguarulhos.com.br/"
             linkGH="https://github.com/victorsantana03/Brastecno-LandingPage"

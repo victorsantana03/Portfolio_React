@@ -7,6 +7,8 @@ import {
   SiVite,
   SiExpress,
   SiAxios,
+  SiDrizzle,
+  SiShadcnui,
 } from "react-icons/si";
 import {
   FaNode,
@@ -24,7 +26,7 @@ import { BiLogoNetlify } from "react-icons/bi";
 
 export function Habilidades() {
   return (
-    <div className="gap-9 flex flex-col lg:w-3/6 font-poppins mb-10 2xl:mb-0">
+    <div className="gap-9 flex flex-col lg:w-3/6 font-poppins py-10 px-2">
       <h1 className="text-3xl lg:text-5xl text-white font-medium font-orbitron text-center">
         Habilidades
       </h1>
@@ -41,9 +43,10 @@ export function Habilidades() {
             <SiAxios />
             <SiPrisma />
             <SiPostgresql />
+            <SiDrizzle />
           </div>
         </div>
-        <div className=" bg-primary flex flex-col xl:flex-row items-center gap-4 lg:gap-8 px-2 lg:px-8 py-4 lg:py-6  rounded-xl h-min">
+        <div className=" bg-primary flex min-w-min flex-col xl:flex-row items-center gap-4 lg:gap-8 px-2 lg:px-8 py-4 lg:py-6  rounded-xl h-min">
           <h1 className="text-secondary text-center text-xl lg:text-2xl font-bold">
             Front-End
           </h1>
@@ -56,6 +59,7 @@ export function Habilidades() {
             <SiNextdotjs />
             <SiTypescript />
             <FaGitAlt />
+            <SiShadcnui />
           </div>
         </div>
         <div className=" bg-primary flex flex-col xl:flex-row items-center gap-4 lg:gap-8 px-2 lg:px-8 py-4 lg:py-6 rounded-xl h-min">

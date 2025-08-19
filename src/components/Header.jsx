@@ -3,7 +3,7 @@ import { FiAlignRight } from "react-icons/fi";
 import { FaHome } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaCode } from "react-icons/fa";
-import { MdChat } from "react-icons/md";
+import { FaShoppingBag } from "react-icons/fa";
 import { FiAlignJustify } from "react-icons/fi";
 
 import { Link } from "react-router-dom";
@@ -31,7 +31,7 @@ export function Header() {
 
           <Link spy={true} smooth={true} to="/sobre">
             <li className=" text-lg cursor-pointer transition duration-300 hover:text-secondary">
-              Sobre
+              Habilidades
             </li>
           </Link>
 
@@ -57,7 +57,6 @@ export function Header() {
     } else {
       return "flex flex-col items-center text-lg cursor-pointer hover:border-b border-secondary";
     }
-    return finalClass;
   };
 
   return (
@@ -84,8 +83,8 @@ export function Header() {
             to="/sobre"
             className={handleClass("/sobre")}
           >
-            <IoPersonSharp className="text-xl lg:text-2xl" />
-            Sobre
+            <FaCode className="text-xl lg:text-2xl" />
+            Habilidades
           </Link>
 
           <Link
@@ -94,7 +93,7 @@ export function Header() {
             to="/projetos"
             className={handleClass("/projetos")}
           >
-            <FaCode className="text-xl lg:text-2xl" />
+            <FaShoppingBag className="text-xl lg:text-2xl" />
             Projetos
           </Link>
 
@@ -104,7 +103,7 @@ export function Header() {
             to="/contato"
             className={handleClass("/contato")}
           >
-            <MdChat className="text-xl lg:text-2xl" />
+            <IoPersonSharp className="text-xl lg:text-2xl" />
             Curriculo
           </Link>
         </ul>
