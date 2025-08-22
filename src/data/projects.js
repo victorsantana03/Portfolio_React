@@ -1,5 +1,15 @@
 export const projects = [
   {
+    id: 0,
+    imgUrl: "/image-projects/Projeto_Bewear.png",
+    title: "Bewear Ecommerce",
+    description:
+      "E-commerce completo utilizando tecnologias modernas. Integração com banco de dados, sistema de autenticação com Google, Listagem de produtos com variantes e totalmente responsivo.",
+    tecs: ["Next", "React", "TypeScript", "PostgreSQL"],
+    linkDeploy: "https://bewear-bootcamp-puce.vercel.app/",
+    linkGH: "https://github.com/victorsantana03/bewear-bootcamp",
+  },
+  {
     id: 1,
     imgUrl: "/image-projects/Projeto_Brastecno.png",
     title: "Brastecno Landing Page",
