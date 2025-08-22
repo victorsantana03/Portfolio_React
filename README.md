@@ -1,6 +1,7 @@
 # Meu Portfólio em React
 [![My Skills](https://skillicons.dev/icons?i=react,vite,tailwind)](https://skillicons.dev)
-![img-portfólio](https://github.com/user-attachments/assets/95a33139-727e-4080-b911-dd9096e4b4ef)
+<img width="1920" height="990" alt="Desktop Screenshot 2025 08 22 - 20 22 15 15" src="https://github.com/user-attachments/assets/4d709567-9f89-4004-84e1-698b9b64e767" />
+
 <br/>
 
 ## Tecnologias e biliotecas usadas no projeto:
